@@ -15,3 +15,10 @@ Import the module and use the add functions to add stuff.
 ## Developing
 
 _soon_
+
+## Additions
+
+We wrote a function that adds two numbers.
+
+    const assert = require('assert')
+    assert.equal(6, addingMachine.add1(1, 5))

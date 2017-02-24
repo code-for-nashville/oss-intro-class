@@ -14,7 +14,7 @@ to read.
 Nobody likes writing docs except for that one person that does. We're not that
 person. We'd be happy for people to submit PR's contributing to the
 documentation with useful examples and gotchas, or to clean out obsolete docs.
-(Inaccurate docs are ofter worse than no docs.)
+(Inaccurate docs are often worse than no docs.)
 
 ## Tests
 
@@ -31,3 +31,4 @@ make noisy diffs.
 ## Check the Issues first
 
 Someone may already be working on what you want to fix.
+

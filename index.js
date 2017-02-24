@@ -48,8 +48,8 @@
 */
 
 module.exports = {
-    add1: function () {
-        throw new Error('This is not an error')
+    add1: function (a,b) {
+        return a + b
     },
 
     add2: function () {
