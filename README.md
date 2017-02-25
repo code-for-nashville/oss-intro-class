@@ -5,7 +5,7 @@ languages.
 ## Usage
 Each langague is located in it's own folder. Right now we support these languages:
 
-* Python 2 - [Python 2 folder](python2)
+* Python - [Python folder](python)
 * Node.js - [Node folder](node)
 
 Each language should implement a calculator that can `add`, `subtract`, `multiply`, and `divide`.
