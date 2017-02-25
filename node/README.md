@@ -11,7 +11,14 @@ npm install # or "yarn" if that floats your boat
 ```
 
 ## Usage
+
 `add(a, b)` - Return the result of adding two numbers, `a` and `b`
+
+`subtract(a, b)` - Return the result of subtracting `b` from `a`
+
+`multiply(a, b)` - TODO
+
+`divide(a, b)` - TODO
 
 ## Testing
 We us [`ava`](https://github.com/avajs/ava) for our test runner. To run tests, just run
