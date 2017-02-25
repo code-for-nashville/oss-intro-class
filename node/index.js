@@ -9,7 +9,7 @@ module.exports = {
       return a - b;
   },
   multiply: function(a, b) {
-    throw new Error('multiply is not implemented yet')
+    return a * b;
   },
   divide: function(a, b) {
       return a / b;

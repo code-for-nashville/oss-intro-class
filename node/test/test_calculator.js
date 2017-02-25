@@ -16,3 +16,9 @@ ava.test('subtract', t => {
   t.is(0, calculator.subtract(1, 1));
 });
 
+ava.test('multiply', t => {
+  t.is(4, calculator.multiply(2, 2));
+  t.not(4, calculator.multiply(2, 3));
+  t.is(Infinity, calculator.multiply(Infinity, 1));
+  t.is(0, calculator.multiply(0, 100));
+});
