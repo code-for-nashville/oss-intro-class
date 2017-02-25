@@ -14,5 +14,7 @@ pip install -r requirements.txt
 
 `multiply(a, b)` - Return the result of multiplying `a` and `b`
 
+`divide(a, b)` - Return the result of dividing `a` and `b`
+
 ## Testing
 After following the installation steps above, run `pytest` from this directory.
