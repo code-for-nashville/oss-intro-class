@@ -9,3 +9,12 @@ def test_add():
 
 def test_multiply():
     assert calculator.multiply(2, 2) == 4
+
+def test_divide():
+    assert calculator.divide(10, 2) == 5
+    assert calculator.divide(500, 10) == 50
+    assert calculator.divide(2, 1) == 2
+
+def test_subtraction():
+    assert calculator.subtraction(5, 3) == 2
+
