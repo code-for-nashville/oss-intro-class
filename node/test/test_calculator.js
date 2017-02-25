@@ -9,3 +9,7 @@ ava.test('add', t => {
 })
 
 ava.test('subtract', t => t.pass())
+
+ava.test('divide', t=> {
+	t.is(4, calculator.divide(16, 4));
+})
