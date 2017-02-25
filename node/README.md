@@ -23,6 +23,8 @@ npm install # or "yarn" if that floats your boat
 ## Testing
 We us [`ava`](https://github.com/avajs/ava) for our test runner. To run tests, just run
 
-`ava`
+    # use the npm script to trigger the test suite without having to install
+    # ava globally
+    npm run test
 
 from the command line after the installation step above.
