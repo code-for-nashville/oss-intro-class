@@ -1,0 +1,12 @@
+{
+  "name": "calculator",
+  "version": "0.1.0",
+  "description": "A Node implementation of a calculator module.",
+  "main": "index.js",
+  "repository": "github.com/code-for-nashville/oss-intro-class",
+  "author": "Nick Lorenson, Max Shenfield",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.18.2"
+  }
+}
