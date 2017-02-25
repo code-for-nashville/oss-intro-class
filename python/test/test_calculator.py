@@ -9,3 +9,6 @@ def test_add():
 
 def test_multiply():
     assert calculator.multiply(2, 2) == 4
+
+def test_subtraction():
+    assert calculator.subtraction(5, 3) == 2
