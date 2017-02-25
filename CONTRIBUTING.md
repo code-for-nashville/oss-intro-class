@@ -19,7 +19,7 @@ documentation with useful examples and gotchas, or to clean out obsolete docs.
 ## Tests
 
 We try to be pretty stringent about testing, so any PR's must be accompanied by
-passing tests excersizing the new code you wrote. Check out the `tests` dir to
+passing tests excersizing the new code you wrote. Check out the `test` dir in each language to
 get a feel for how we organize them.
 
 ## Style
@@ -31,4 +31,3 @@ make noisy diffs.
 ## Check the Issues first
 
 Someone may already be working on what you want to fix.
-
