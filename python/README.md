@@ -12,6 +12,8 @@ pip install -r requirements.txt
 ## Usage
 `add(a, b)` - Return the result of adding two numbers, `a` and `b`
 
+`subtraction(a, b)` - Return the result of subtracting two numbers,  `a` and `b`
+
 `multiply(a, b)` - Return the result of multiplying `a` and `b`
 
 `divide(a, b)` - Return the result of dividing `a` and `b`
