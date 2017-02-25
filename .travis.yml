@@ -1,0 +1,8 @@
+language: python
+python:
+  - "2.7"
+  - "3.5"
+# command to install dependencies
+install: "cd python && pip install -r requirements.txt"
+# command to run tests
+script: "cd python && pytest"
