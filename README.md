@@ -1,3 +1,5 @@
+![Travis Build Status](https://travis-ci.org/code-for-nashville/oss-intro-class.svg?branch=master)
+
 # Calculator
 An example open source project that implements calculator functions (add, subtract, multiply, divide) in different
 languages.

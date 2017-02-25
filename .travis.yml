@@ -2,7 +2,15 @@ language: python
 python:
   - "2.7"
   - "3.5"
-# command to install dependencies
-install: "cd python && pip install -r requirements.txt"
-# command to run tests
-script: "py.test && node --version"
+install:
+  # Install required node version
+  - "nvm install v6.9.1 && nvm use v6.9.1"
+  # Install python deps. We start in base project directory
+  - "cd python && pip install -r requirements.txt"
+  # Install node deps
+  - "cd ../node && npm install"
+script:
+  # python tests
+  - "cd ../python && py.test"
+  # node tests
+  - "cd ../node && ava"
