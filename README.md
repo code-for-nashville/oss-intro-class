@@ -23,7 +23,7 @@ Students should feel comfortable and confident making small contributions to ope
 identifying issues, not doing work on issues that have already been claimed, participate in project chat channels (Slack, gitter, Discord, etc.), and filing pull requests with tests, and any necessary documentation updates.
 
 ### Outcomes
-Sutdents should be able to
+Students should be able to
 * find a project they are interested in
 * find issues they can tackle, communicate their interest, and file a pull request that solves the issue
 * file an effective bug report
