@@ -6,7 +6,7 @@ We recommend using Virtualenvwrapper to isolate your python environments.
 
 After cloning this repository
 ```
-cd oss-intro-class/python2
+cd oss-intro-class/python
 pip install -r requirements.txt
 ```
 ## Usage
