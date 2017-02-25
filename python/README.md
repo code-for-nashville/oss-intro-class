@@ -12,5 +12,7 @@ pip install -r requirements.txt
 ## Usage
 `add(a, b)` - Return the result of adding two numbers, `a` and `b`
 
+`multiply(a, b)` - Return the result of multiplying `a` and `b`
+
 ## Testing
 After following the installation steps above, run `pytest` from this directory.
