@@ -13,4 +13,4 @@ script:
   # python tests
   - "cd ../python && py.test"
   # node tests
-  - "cd ../node && ava"
+  - "cd ../node && npm test"
