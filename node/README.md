@@ -18,7 +18,7 @@ npm install # or "yarn" if that floats your boat
 
 `multiply(a, b)` - TODO
 
-`divide(a, b)` - TODO
+`divide(a, b)` - Return the result of dividing 'a' by 'b'
 
 ## Testing
 We us [`ava`](https://github.com/avajs/ava) for our test runner. To run tests, just run

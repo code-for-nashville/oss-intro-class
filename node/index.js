@@ -12,6 +12,6 @@ module.exports = {
     throw new Error('multiply is not implemented yet')
   },
   divide: function(a, b) {
-    throw new Error('divide is not implemented yet')
+      return a / b;
   }
 }
