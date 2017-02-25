@@ -6,7 +6,7 @@ module.exports = {
     return 2;
   },
   subtract: function(a, b) {
-      return a | b;
+      return a - b;
   },
   multiply: function(a, b) {
     throw new Error('multiply is not implemented yet')

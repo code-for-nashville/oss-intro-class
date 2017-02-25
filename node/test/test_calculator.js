@@ -6,10 +6,13 @@ const calculator = require('../index.js')
 
 ava.test('add', t => {
   t.is(2, calculator.add(1, 1));
-})
-
-ava.test('subtract', t => t.pass())
+});
 
 ava.test('divide', t=> {
 	t.is(4, calculator.divide(16, 4));
 })
+
+ava.test('subtract', t => {
+  t.is(0, calculator.subtract(1, 1));
+});
+
